@@ -645,7 +645,7 @@ def main():
         from rl_cardiac.cardiac_model import CardiacModel_Env
 
         # List of rat types to try
-        rat_types = ['healthy_stable']
+        rat_types = ['healthy_stable', 'healthy_exercise', 'hypertension_stable', 'hypertension_exercise']
 
         for rat_type in rat_types:
             print(f"Training for rat type: {rat_type}")
